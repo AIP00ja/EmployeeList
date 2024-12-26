@@ -120,8 +120,14 @@
                         </div>
                     </div>
                 </div>
-            </div>               
+            </div> 
+                    
+
+
                 </div>
+
+
+
             </div>
             <asp:LinkButton ID="btDeleteAlll" runat="server" CssClass="btn btn-outline-danger btn-sm" OnClientClick="return confirm('Are you sure you want to delete this record?');" OnClick="btDeleteAlll_Click">
     <i class="bi bi-trash"></i>

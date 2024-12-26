@@ -1,0 +1,369 @@
+a:hover{cursor:pointer;}
+a.btn.btn-default.current{ background-color:#73879c !important; color:white;}
+div.animated.flipInY.tile_stats_count div.left{width:0px;}
+a.dashbox:hover{text-decoration:none;}
+code.block{padding: 4px 0px; display:block;}
+td { word-break: break-all; }
+
+.w50 {
+    width:50%;
+}
+.w80 {
+    width:80%;
+}
+.w100 {
+    width:100%;
+}
+#placeholder33 {
+    height: 260px;
+    display: none;
+}
+#myTab {
+    margin-bottom:0;
+}
+.navbar.nav_title {
+    border :0;
+}
+.side-menu li ul.nav.child_menu {
+    display: none;
+}
+.alert.alert-danger {
+    margin-top:60px;
+}
+.alert.alert-danger p a {
+    color:white;
+}
+
+@media screen and ( max-width: 799px ) {
+    table {
+        max-width:80%;
+    }
+    table tr td:first-child {
+        background-color:lightgray;
+    }
+    table tr:hover td:first-child {
+        background-color:lightgray !important;
+    }
+    th, td{
+        float:left;
+        width:100% !important;
+    }
+    div.dataTables_filter label input{
+        max-width:90%;
+    }
+}
+
+/*addons faq*/
+ol li p:first-child{
+    font-weight:bold;
+}
+
+/*addons.subscribe_widget, blacklist.edit*/
+.myFlat div.iradio_flat-green,
+.myRedirect div.iradio_flat-green {
+    position: relative;
+}
+.myFlat div.iradio_flat-green input,
+.myRedirect div.iradio_flat-green input {
+    position: absolute;
+    opacity: 0;
+}
+.myFlat div.iradio_flat-green ins.iCheck-helper,
+.myRedirect div.iradio_flat-green ins.iCheck-helper {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 0px none;
+    opacity: 0;
+}
+/*blacklist.list*/
+.btn-file { position: relative; overflow: hidden; }
+.btn-file input[type=file] { position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; outline: none; background: white; cursor: inherit; display: block; }
+div.x_content div.csv_upload form.form-inline div.input-group{margin-bottom:0px;}
+input.importcsv {
+    border: solid 1px lightgray;
+    padding:0px;
+    width:36px;
+    text-align:center;
+}
+#blacklist_list_form {
+    display:inline-block;
+    float:right;
+}
+#blacklist_list_submit {
+    margin-top:-10px;
+}
+/*view.campaign.modify*/
+select#id_template option{
+    padding:50px 0px 50px 130px;
+    background-position:center left;
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
+    border-bottom:1px solid grey;
+    margin-left:2px;
+}
+/*view.campaign.sent*/
+div.x_panel div.x_content div.col-md-2 img{
+    max-width:100px;
+    max-height:200px;
+}
+.pie_div {
+    text-align: center;
+    margin-bottom: 17px;
+}
+.pie_bg {
+    text-align: center;
+    display: none;
+    margin-bottom: 17px;
+}
+/*view.campaign.start*/
+.padding-top-checkbox{
+    padding-top:8px;
+}
+div#admininfo{
+    display:none;
+}
+div#go_to_list{
+    display:none;
+}
+.progress {
+    width:0px;
+}
+#stopCampaign {
+    display:none;
+}
+#listCampaign {
+    display:none;
+}
+#response {
+    display:none;
+}
+/*view.campaign.tab.confirm*/
+select#template_name option{
+    padding:50px 0px 50px 130px;
+    background-position:center left;
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
+    border-bottom:1px solid grey;
+    margin-left:2px;
+}
+img#layoutPicture {
+    max-width:200px;
+    max-height:200px;
+}
+/*view.campaign.tab.recipients*/
+.resetquery {
+    margin-top:6px;
+}
+#qtyToDelete {
+    font-size:22px;
+}
+.icheckbox_flat {
+    position: relative;
+}
+.icheckbox_flat #OR,
+.icheckbox_flat #AND {
+    position: absolute;
+    opacity: 0;
+}
+.js-example-basic-single {
+    width: 100%;
+}
+/*view.campaign.waiting*/
+ table#waitingCampaign th,
+ table#waitingCampaign td{
+    vertical-align:middle;
+ }
+ table#waitingCampaign td img{
+    border:5px solid transparent;
+    transition: 1s;
+ }
+ table#waitingCampaign td img:hover{
+    border:5px solid;
+    transition:0.2s;
+ }
+ td.center {
+    text-align:center;
+ }
+ .wiev_campaign_date {
+    width:150px !important;
+ }
+ /*view.media.list*/
+ .btn-file {
+     position: relative;
+     overflow: hidden;
+ }
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+form.form-inline div.input-group{
+    margin-bottom:0px;
+}
+/*recipient*/
+button.disabled:hover {
+    cursor: not-allowed !important;
+}
+
+div.x_content div.csv_upload form.form-inline div.input-group{
+    margin-bottom:0px;
+}
+input.importcsv {
+    border: solid 1px lightgray;
+    padding:0px;
+    width:36px;
+    text-align:center;
+}
+
+.resetquery {
+    margin-top:6px;
+}
+#qtyToDelete,
+#qtyToVerify {
+    font-size:22px;
+}
+.buttons {
+    max-width:180px;
+}
+.checkbox.list {
+    display:inline;
+}
+#recipients thead tr th {
+    vertical-align: middle;
+}
+.rowSelected {
+    background:rgb(111, 111, 111, 0.1) !important;
+    transition: 0.1s;
+}
+tr {
+    transition: 0.2s;
+}
+.select2-results__option[aria-selected="true"] {
+    
+}
+/*view.settings.system*/
+.for-checkbox {
+    padding-top:0 !important;
+}
+/*view.statistics*/
+select#template_name option{
+    padding:50px 0px 50px 130px;
+    background-position:center left;
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
+    border-bottom:1px solid grey;
+    margin-left:2px;
+}
+img#layoutPicture {
+    max-width:200px;
+    max-height:200px;
+}
+div#tab_content3 div div div p.mini_thumb{
+    text-align:center;
+    padding-top:25px;
+}
+div#tab_content3 div div div p img{
+    max-width:100px;
+}
+.w300 {
+    width:300px;
+}
+div#map{
+    width:100%;
+    height:600px;
+}
+/*templates*/
+img#layoutPicture {
+    max-width:200px;
+    max-height:200px;
+}
+#mailhtml {
+    min-height:400px;
+}
+.CodeMirror {
+    height:600px !important;
+    border: solid 1px lightgray;
+}
+div.email_header_div div.CodeMirror.cm-s-default {
+    height:200px !important;
+}
+textarea {
+    line-height: 1.2em !important;
+}
+#body_attribs, #doctype {
+    border: solid 1px #c7254e4d;
+}
+input[name="doctype"] {
+    width:500px;
+}
+input[name="body_attribs"] {
+    width:400px;
+}
+#percentageWrapper {
+    width:100%;
+    height:20px;
+    position:relative;
+    background:#bbb;
+    overflow:hidden;
+}
+#percentageWrapper div {
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#777;
+}
+#percentageWrapper p{
+    position:absolute;
+    z-index:999;
+    color:#fff;
+    padding-left:10px;
+}
+ table#templates th,
+ table#templates td{
+     vertical-align:middle;
+ }
+ table#templates td img{
+     border:5px solid transparent;
+     transition: 1s;
+ }
+ table#templates td img:hover{
+     border:5px solid;
+     transition:0.2s;
+ }
+ table#templates td.buttons{
+     text-align:center;
+ }
+ /*templates_thumbs*/
+ table#files th,
+ table#files td{
+     vertical-align:middle;
+ }
+ table#files td img{
+     border:5px solid transparent;
+     transition: 1s;
+ }
+ table#files td img:hover{
+     border:5px solid;
+     transition:0.2s;
+ }
+ #progres_info {
+     padding:5px 10px;
+ }
